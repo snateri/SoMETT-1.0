@@ -11,8 +11,8 @@
   latest release (https://github.com/enyo/dropzone/releases/latest), and
   host them yourself!
 -->
-<script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
-<link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+<script src="dropzone.js"></script>
+<link rel="stylesheet" href="dropzone.css">
 
 
 
