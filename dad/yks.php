@@ -13,6 +13,10 @@
 -->
 <script src="dropzone.js"></script>
 <link rel="stylesheet" href="dropzone.css">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 05a1c70596a6bba4b079ed6918113f3e8d0efc97
 
 
 
