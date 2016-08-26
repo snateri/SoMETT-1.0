@@ -9,8 +9,11 @@
 <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
 </head>
 <body>
-  <!-- Upload Thing -->
+  <!-- Navipalkki tuohon allapuolelle -->
+  <!-- Jotain paskaa tuohon alapuolelle -->
+  <!-- Kuvien laitto juttu -->
   <form action="upload.php" class="dropzone"></form>
+  <!-- Footer tuohon alapuolelle -->
 </body>
 </html>
 
