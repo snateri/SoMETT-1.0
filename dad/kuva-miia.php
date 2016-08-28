@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="tyylit-miia.css">
 </head>
 <body>
-  <!-- Navipalkki tuohon allapuolelle -->
+  <!-- Navipalkki -->
 <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
@@ -21,14 +21,29 @@
     </ul>
   </div>
 </div>
-  <!-- Jotain paskaa tuohon alapuolelle -->
+  <!-- Jotain ylimääräistä paskaa, joka saa sivun näyttämään kivemmalta --!>
+<section class="hero">
+  <h1>Lähetyspalvelu</h1>
+  <p>Tämän kautta voit lähettä kuviasi yhteisön ja museoasiantuntioiden tutkittavaksi.
+  Suosittelemme lämpimästi käytäjäehtoihin tutustumista ennen kuvien lähettämistä.
+  Mikäli et tiedä kuinka lähetysboksia käytetään, löytyy aiheesta tietoa sivunalaosassa.</p>
+</section>  
+  <!-- Sivun keskeisin sisältö  -->
 <section class="main">
   <div class="small-11 small-centered columns">
   <!-- Kuvien laitto juttu -->
     <form action="upload.php" class="dropzone"></form>
   </div>
 </section>
-  <!-- Footer tuohon alapuolelle -->
+  <!-- Apua uusavuttomille --!>
+<section class="help">
+  <h2>Helppinurkka</h2>
+  <p>SoMETTin lähetyspalveluboksi on "drag & drop -tekniikalla" toimiva lähetyslaatikko.
+  Mikäli selaimesi tukee kyseistä tiedostojen lähetystapaa voi yksinkertaisesti "raahata ja
+  tiputtaa" kuvan lähetysboksin ruutuun. Jos selain ei tue "drag & drop -tekniikkaa", voit 
+  klikata ruudussa olevaa tekstiä, joka avaa perinteisen tiedoston valinta ikkunan.</p>
+</section>
+  <!-- Footer osio -->
 <footer>
 </footer>
 </body>
