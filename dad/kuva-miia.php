@@ -39,10 +39,36 @@
     Mikäli selaimesi tukee kyseistä tiedostojen lähetystapaa voi yksinkertaisesti "raahata ja
     tiputtaa" kuvan lähetysboksin ruutuun. Jos selain ei tue "drag & drop -tekniikkaa", voit 
     klikata ruudussa olevaa tekstiä, joka avaa perinteisen tiedoston valinta ikkunan.</p>
+    <div class="row">
+      <div class="large-6 columns">
+        <h3>Selaintuki</h3>
+        <ul>
+          <li>Chrome 7+</li>
+          <li>Firefox 4+</li>
+          <li>IE 10+</li>
+          <li>Opera 12+</li>
+          <li>Safari 6+</li>
+        </ul>
+      </div>
+      <div class="large-6 columns">
+        <h3>Tiedostomuodot</h3>
+        <ul>
+          <li>JPG</li>
+          <li>PNG</li>
+          <li>GIF</li>
+          <li>JPEG</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
   <!-- Footer osio -->
 <footer>
+  <div class="wrap row">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+  </div>
 </footer>
 </body>
 </html>
