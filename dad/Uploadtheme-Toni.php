@@ -29,7 +29,10 @@
         <h4 class="text-center">Tiedoston lähetys</h4>
       </div>
       <div class="Send-file">
-        <form action="upload.php" class="dropzone"></form>
+        <form action="upload.php" class="dropzone">
+        <input class="input-field-b" type="text" name="" id="" size=10 placeholder="Otsikko"/>
+        <textarea class="input-field-a" size="40" placeholder="Tarina"></textarea>
+        </form>
       </div>
     </div>
   </div> 
