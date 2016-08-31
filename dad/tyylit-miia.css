@@ -15,6 +15,14 @@
 .main h1{
 	text-align: center;
 }
+.tekstikentta {
+	border-style: dashed;
+	border-width: 2px;
+	text-align: center;
+}
+label {
+	text-align: center;
+}
 .help{
 	padding: 70px 0px;
 }
@@ -25,7 +33,7 @@
 }
 .footer{
 	padding: 80px 0px;
-	background-color: #333;
+	background-color: #404040;
 }
 .footer h4, .footer p, .footer i{
 	color: white;
