@@ -6,6 +6,9 @@
 }
 img.main-image{
 	width: 800px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .link{
 	padding-left: 1.5cm;
@@ -23,7 +26,7 @@ div.row{
 
 }
 div.container{
-	padding-bottom: 2cm;
+	padding-bottom: 5cm;
 }
 h4.text-center{
 	margin-top: 3cm;
@@ -84,10 +87,22 @@ h4.text-center{
 .input-field-a{
 	position: absolute;
 	margin-top: 5.5cm;
-	width: 11cm;
+	width: 48%;
+	height: 13%;
+	resize: none;
+
 }
 .input-field-b{
 	position: absolute;
 	margin-top: 4cm;
-	width: 11cm;
+	width: 48%;
+}
+.counter{
+	position: absolute;
+    margin-top: 9cm;
+	margin-left: 4cm;
+}
+.Text-counter{
+	position: absolute;
+    margin-top: 9cm;
 }

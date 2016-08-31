@@ -8,6 +8,18 @@
     <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
     <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
     <link rel="stylesheet" href="http://cosmo.kpedu.fi/~toniisosaari/SoMETT/SoMETT-1.0/dad/Uploadtheme-Toni.css">
+    <script>
+    function textCounter(field,field2,maxlimit)
+    {
+     var countfield = document.getElementById(field2);
+      if ( field.value.length > maxlimit ) {
+        field.value = field.value.substring( 0, maxlimit );
+          return false;
+           } else {
+             countfield.value = maxlimit - field.value.length;
+              }
+              }
+    </script>
    </head>
   <body>
   <div class="top-bar">
@@ -30,8 +42,9 @@
       </div>
       <div class="Send-file">
         <form action="upload.php" class="dropzone">
-        <input class="input-field-b" type="text" name="" id="" size=10 placeholder="Otsikko"/>
-        <textarea class="input-field-a" size="40" placeholder="Tarina"></textarea>
+        <input class="input-field-b" type="text" name="" id="" size=140 placeholder="Otsikko"/>
+        <textarea class="input-field-a" size="40" placeholder="Tarina (Merkki raja on 140)" maxlength="140" onkeyup="textCounter(this,'counter',140);" id="message"></textarea>
+        <input class="counter" disabled  maxlength="3" size="3" value="140" id="counter"><p class="Text-counter">Jäljellä olevat merkit:</p>
         </form>
       </div>
     </div>
