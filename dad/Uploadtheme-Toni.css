@@ -1,23 +1,73 @@
+.top-bar{
+	background-color: #b3ecff;
+}
 img.main-image{
 	width: 800px;
-	box-shadow: #cccccc 50px 50px 50px;
 }
+.link{
+	padding-left: 1cm;
+	color: green;
+}
+
 div.row{
     margin: auto;
     width: 60%;
     padding: 10px;
+	padding-bottom: 3cm;
 
 }
 h4.text-center{
-	border: 1px solid black;
 	margin-top: 3cm;
 	margin-bottom: 3cm;
-	box-shadow: #cccccc 40px 40px 40px;
 }
 .Send-file{
-	box-shadow: #cccccc 40px 40px 40px;
 }
-.footer{
-	margin-top: 1.5cm;
-	background-color: #d9d9d9;
+.full-width {
+  max-width: 1400px;
+}
+
+.footer {
+  background-color: #b3ecff;
+  padding: 2rem 4rem;
+  text-align: center;
+  color: black;
+}
+.footer i {
+  font-size: 100px;
+}
+
+.footer h4 {
+  color: black;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: black;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+    min-height: 280px;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}
+
+
+
+.text-right{
+	margin-left:;
+}
+.text-left{
+	margin-right:;
 }
