@@ -1,0 +1,23 @@
+img.main-image{
+	width: 800px;
+	box-shadow: #cccccc 50px 50px 50px;
+}
+div.row{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
+}
+h4.text-center{
+	border: 1px solid black;
+	margin-top: 3cm;
+	margin-bottom: 3cm;
+	box-shadow: #cccccc 40px 40px 40px;
+}
+.Send-file{
+	box-shadow: #cccccc 40px 40px 40px;
+}
+.footer{
+	margin-top: 1.5cm;
+	background-color: #d9d9d9;
+}
