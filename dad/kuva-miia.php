@@ -31,7 +31,17 @@
     Mikäli et tiedä kuinka lähetysboksia käytetään, löytyy aiheesta tietoa sivunalaosassa.</p>
     <div class="row">
       <div class="small-9 small-centered colums">
-      <form action="upload.php" class="dropzone"></form>
+        <form action="upload.php" class="dropzone"></form>
+      </div>
+      <div class="small-9 small-centered colums">
+        <label>Otsikko
+          <input class="tekstikentta" type="text" placeholder="Käytäthän mahdollisimman kuvailevaa otsikkoa">
+        </label>
+      </div>
+      <div class="small-9 small-centered colums">
+        <label>Kuvailu
+          <input class="tekstikentta" type="text" placeholder="Kirjoita kaikki mitä tiedät kyseisestä objektista">
+        </label>
       </div>
     </div>
   </div>
