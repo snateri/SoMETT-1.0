@@ -1,5 +1,19 @@
+// Uses AMD or browser globals to create a jQuery plugin.
+(function (factory) {
+  if (typeof define === 'function' && define.amd) {
+      // AMD. Register as an anonymous module.
+      define(['jquery'], factory);
+  } else {
+      // Browser globals
+      factory(jQuery);
+  }
+} (function (jQuery) {
+    var module = { exports: { } }; // Fake component
 
-nfo at [www.dropzonejs.com](http://www.dropzonejs.com)
+
+/*
+ *
+ * More info at [www.dropzonejs.com](http://www.dropzonejs.com)
  *
  * Copyright (c) 2012, Matias Meno
  *
@@ -1763,3 +1777,6 @@ nfo at [www.dropzonejs.com](http://www.dropzonejs.com)
   contentLoaded(window, Dropzone._autoDiscoverFunction);
 
 }).call(this);
+
+    return module.exports;
+}));
