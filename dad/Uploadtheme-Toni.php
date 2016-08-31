@@ -28,7 +28,7 @@
         <div class="top-bar-left">
         <a class="link" href="#">Main page</a>
         <a class="link" href="#">Send files</a>
-        <a class="link" hfer="#">...</a>
+        <a class="link" href="#">...</a>
       </div>
     </div>
   </div>
@@ -42,9 +42,9 @@
       </div>
       <div class="Send-file">
         <form action="upload.php" class="dropzone">
-        <input class="input-field-b" type="text" name="" id="" size=140 placeholder="Otsikko"/>
-        <textarea class="input-field-a" size="40" placeholder="Tarina (Merkki raja on 140)" maxlength="140" onkeyup="textCounter(this,'counter',140);" id="message"></textarea>
-        <input class="counter" disabled  maxlength="3" size="3" value="140" id="counter"><p class="Text-counter">Jäljellä olevat merkit:</p>
+        <input class="input-field-b" type="text" name="Otsikko" id="Otsikko" size=140 placeholder="Otsikko"/>
+        <textarea class="input-field-a" placeholder="Tarina (Merkki raja on 140)" maxlength="140" onkeyup="textCounter(this,'counter',140);" id="message"></textarea>
+        <input class="counter" disabled  maxlength="3" value="140" id="counter"><p class="Text-counter">Jäljellä olevat merkit:</p>
         </form>
       </div>
     </div>
@@ -69,5 +69,5 @@
       <p>...</p>
     </div>
   </div>
-</footer>                                                                                                                                                                                </footer>
+</footer>
 </html>
