@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <title>SoMETT</title>
 <script src="foundation.js"></script>
-<script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
-<link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+<script src="http://cosmo.kpedu.fi/~tomijylha/SoMETT-1.0/dad/dropzone-4.3.0/dist/dropzone.js"></script>
+<link rel="stylesheet" href="http://cosmo.kpedu.fi/~tomijylha/SoMETT-1.0/dad/dropzone-4.3.0/dist/dropzone.css">
 <link rel="stylesheet" href="foundation.css">
 <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
 <link rel="stylesheet" href="tyylit-miia.css">
@@ -31,7 +31,17 @@
     Mikäli et tiedä kuinka lähetysboksia käytetään, löytyy aiheesta tietoa sivunalaosassa.</p>
     <div class="row">
       <div class="small-9 small-centered colums">
-      <form action="upload.php" class="dropzone"></form>
+        <form action="upload.php" class="dropzone"></form>
+      </div>
+      <div class="small-9 small-centered colums">
+        <label>Otsikko
+          <input class="tekstikentta" type="text" placeholder="Käytäthän mahdollisimman kuvailevaa otsikkoa">
+        </label>
+      </div>
+      <div class="small-9 small-centered colums">
+        <label>Kuvailu
+          <input class="tekstikentta" type="text" placeholder="Kirjoita kaikki mitä tiedät kyseisestä objektista">
+        </label>
       </div>
     </div>
   </div>
