@@ -1,12 +1,18 @@
 .top-bar{
 	background-color: #b3ecff;
 }
+.top-bar-title{
+	color: black;
+}
 img.main-image{
 	width: 800px;
 }
 .link{
-	padding-left: 1cm;
+	padding-left: 1.5cm;
 	color: green;
+}
+.footer-img{
+	width: 20cm;
 }
 
 div.row{
@@ -37,7 +43,7 @@ h4.text-center{
 }
 
 .footer h4 {
-  color: black;
+  color: white;
   font-size: 1em;
   font-weight: 400;
   text-transform: uppercase;
@@ -46,13 +52,13 @@ h4.text-center{
 }
 .footer p, .footer a {
   font-weight: 300;
-  font-size: .8em;
+  font-size: 20px;
   color: black;
 }
 
 @media only screen and (min-width: 40.063em) {
   .footer .columns:nth-child(n+2) {
-    border-left: 1px solid #b3b3b3;
+    border-left: 0px solid #b3b3b3;
     min-height: 280px;
   }
 }

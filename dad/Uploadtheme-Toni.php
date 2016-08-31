@@ -33,23 +33,19 @@
       </div>
     </div>
   </div> 
-<!-- For Foundation Icons, put this in your head -->
+
 <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
 
-<!-- Footer -->
 <footer class="footer">
   <div class="row full-width">
-    <div class="small-12 medium-3 large-4 columns">
+    <div class="small-12 medium-4 large-4 columns">
       <i class="fi-laptop"></i>
       <h4>Somet</h4>
       <p>Facebook</p>
       <p>Twitter</p>
       <p>Pinterest</p>
     </div>
-    <div class="small-6 medium-3 large-2 columns">
-      <p></p>
-    </div>
-    <div class="small-6 medium-3 large-2 columns">
+    <div class="small-12 medium-4 large-4 columns">
       <i class="fi-address-book"></i>
       <h4>Yhteystiedot</h4>
       <p>Puh.</p>
