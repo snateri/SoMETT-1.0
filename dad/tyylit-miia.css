@@ -10,15 +10,19 @@
 	color: white;
 }
 .main{
-	padding: 70px 0px 350px 0px;
+	padding: 70px 0px 400px 0px;
 	background: #d9d9d9;
 }
 .main h1{
 	text-align: center;
 }
+.laapeli-b {
+	position: absolute;
+	margin-top: 200px;
+}
 .input-field-b {
 	position: absolute;
-	margin-top: 250px;
+	margin-top: 230px;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: #0097A7;
@@ -26,15 +30,25 @@
 	max-width: 900px;
 	text-align: center;
 }
+.laapeli-a{
+	position: absolute;
+    margin-top: 290px;
+}
 .input-field-a {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 320px;
     border-style: dashed;
     border-width: 2px;
 	border-color: #0097A7;
 	width: 75%;
 	max-width: 900px;
 	text-align: center;
+	height: 10%;
+	resize: none;
+}
+.button{
+	position: absolute;
+	margin-top: 465px;
 }
 .wrap{
 	width: 90%;
