@@ -29,6 +29,49 @@
         <a class="link" href="#">Main page</a>
         <a class="link" href="#">Send files</a>
         <a class="link" href="#">...</a>
+        <p class="text-right">
+        <?php
+        session_start();
+        $SesID = session_id();
+        $Date = date(d.m.Y);
+        $DT = "$Date ";
+        #Yhteys
+        $my=mysqli_connect("#","#","#","#");
+        #Tarkistus
+        if($my->mysql_errno){
+          die("MySQL, virhe yhteyden luonnissa:" . $my->connect_error);
+        }
+        #Merkinnät
+        $my->set_charset('utf8');
+        #Statiikka tulos
+        //echo $my->stat;
+        $sql = "SELECT * FROM 671X_Vierailut 
+                WHERE NOT SID = '".$SesID."'";
+        $sql2 = "INSERT INTO 671X_Vierailut(SID,Time)
+                VALUES('".$SesID."','".$DT."')";
+        $sql3 = "SELECT MAX(VID) as maksimi FROM 671X_Vierailut ";
+        
+        if($result = $my->query($sql)){
+          if($result2 = $my->query($sql2)){
+          }
+        }
+        
+        if($result3 = $my->query($sql3)){
+          while($d = $result3->fetch_object()){
+            echo "<p>$d->maksimi</p>";
+          }
+        }
+        #Sulje
+        $my->close();
+        
+        
+        echo "<p>".$sql."</p>";
+        echo "<p>".$sql2."</p>";
+        echo "<p>".$sql3."</p>";
+        
+        
+        ?>
+        </p>
       </div>
     </div>
   </div>
