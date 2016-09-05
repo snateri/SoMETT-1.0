@@ -29,20 +29,16 @@
     <p>Tämän kautta voit lähettä kuviasi yhteisön ja museoasiantuntioiden tutkittavaksi.
     Suosittelemme lämpimästi käytäjäehtoihin tutustumista ennen kuvien lähettämistä.
     Mikäli et tiedä kuinka lähetysboksia käytetään, löytyy aiheesta tietoa sivunalaosassa.</p>
+  </div>
     <div class="row">
-      <div class="small-9 small-centered colums">
-        <form action="upload.php" class="dropzone"></form>
-      </div>
-      <div class="small-9 small-centered colums">
-        <label>Otsikko
-          <input class="tekstikentta" type="text" placeholder="Käytäthän mahdollisimman kuvailevaa otsikkoa">
-        </label>
-      </div>
-      <div class="small-9 small-centered colums">
-        <label>Kuvailu
-          <input class="tekstikentta" type="text" placeholder="Kirjoita kaikki mitä tiedät kyseisestä objektista">
-        </label>
-      </div>
+    <div class="small-9 small-centered colums">
+      <form method="GET" action="upload.php" class="dropzone">
+        <label class="laapeli-b">Otsikko:</label>
+          <input class="input-field-b" type="text" placeholder="Käytäthän mahdollisimman kuvailevaa otsikkoa">
+        <label class="laapeli-a">Kuvailu:</label>
+          <textarea class="input-field-a" type="text" placeholder="Kirjoita kaikki mitä tiedät kyseisestä objektista"></textarea>
+        <button class="hollow button" href="#">Lähetä</button>
+      </form>
     </div>
   </div>
 </section>
