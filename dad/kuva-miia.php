@@ -2,25 +2,49 @@
 <html lang="fi">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>SoMETT</title>
-<script src="foundation.js"></script>
-<script src="http://cosmo.kpedu.fi/~tomijylha/SoMETT-1.0/dad/dropzone-4.3.0/dist/dropzone.js"></script>
 <link rel="stylesheet" href="http://cosmo.kpedu.fi/~tomijylha/SoMETT-1.0/dad/dropzone-4.3.0/dist/dropzone.css">
-<link rel="stylesheet" href="foundation.css">
+<link rel="stylesheet" href="http://cosmo.kpedu.fi/~miiahuvila/somett/SoMETT-1.0/dad/node_modules/foundation-sites/dist/foundation.min.css">
 <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
 <link rel="stylesheet" href="tyylit-miia.css">
 </head>
 <body>
-  <!-- Navipalkki -->
-<div class="top-bar">
+<div class="off-canvas-wrapper">
+ <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+ 	<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+	<!-- Close button -->
+
+  <!-- Mobiili Navipalkki -->
+<ul class="vertical menu">
+ <li><a href="#">Etusivu</a></li>
+ <li><a href="#">Kuvapankki</a></li>
+ <li><a href="#">Lähetyspalvelu</a></li>
+</ul>
+
+</div>
+
+<div class="off-canvas-content" data-off-canvas-content>
+   <div class="title-bar">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button" data-open="offCanvas"></button>
+    <span class="title-bar-title">SoMETT</span>
+  </div>
+</div>
+  <!-- Poytakone Navipalkki -->
+<div class="top-bar nav-desktop">
+<div class="wrap">
   <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
+    <ul class="dropdown menu dropdown-desktop" data-dropdown-menu>
       <li class="menu-text">SoMETT</li>
       <li><a href="#">Etusivu</a></li>
       <li><a href="#">Kuvapankki</a></li>
-      <li><a href="#">Lisäyspalvelu</a></li>
+      <li><a href="#">Lähetyspalvelu</a></li>
     </ul>
   </div>
+</div>
 </div>
   <!-- Jotain ylimääräistä paskaa, joka saa sivun näyttämään kivemmalta -->
 <section class="main">
@@ -36,8 +60,8 @@
         <label class="laapeli-b">Otsikko:</label>
           <input class="input-field-b" type="text" placeholder="Käytäthän mahdollisimman kuvailevaa otsikkoa">
         <label class="laapeli-a">Kuvailu:</label>
-          <textarea class="input-field-a" type="text" placeholder="Kirjoita kaikki mitä tiedät kyseisestä objektista"></textarea>
-        <button class="hollow button" href="#">Lähetä</button>
+          <textarea class="input-field-a" placeholder="Kirjoita kaikki mitä tiedät kyseisestä objektista"></textarea>
+        <button class="hollow button">Lähetä</button>
       </form>
     </div>
   </div>
@@ -98,6 +122,13 @@
 	</div>
 	</div>
 </section>
+<script src="http://cosmo.kpedu.fi/~miiahuvila/somett/SoMETT-1.0/dad/node_modules/foundation-sites/vendor/jquery/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js"></script>
+<script src="http://cosmo.kpedu.fi/~tomijylha/SoMETT-1.0/dad/dropzone-4.3.0/dist/dropzone.js"></script>
+<script>
+      $(document).foundation();
+</script>
+
 </body>
 </html>
 
